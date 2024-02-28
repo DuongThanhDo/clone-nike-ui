@@ -20,8 +20,6 @@ function HeaderNavBar() {
         } else {
             if (currentScrollPos > 36) document.querySelector('.header').style.transform = 'translateY(-100px)';
         }
-        console.log('prev', prevScrollpos);
-        console.log('curent', currentScrollPos);
         prevScrollpos = currentScrollPos;
         setScroll(currentScrollPos);
     };

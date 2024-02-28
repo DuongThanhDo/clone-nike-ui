@@ -1,6 +1,5 @@
 import Button from '../../components/Button/Button';
-import CartItem from '../../components/Item/CartItem';
-import FavoriteCartItem from '../../components/Item/FavoriteCartItem';
+import { CartItem, FavoriteCartItem } from '../../components/Item';
 import SlideShopSport from '../../components/Slides/SlideShopSport';
 import { Title } from '../../components/Title';
 import { HiQuestionMarkCircle } from 'react-icons/hi2';

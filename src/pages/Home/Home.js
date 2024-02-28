@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Button } from '../../components/Button';
-import ArtBtnHome from '../../components/ArtMuseum/ArtBtnHome';
-import SlideAlwaysIconic from '../../components/Slides/SlideAlwaysIconic';
 import videoSource from '../../assets/video/pexels_videos_2601.mp4';
-import SlideShopSport from '../../components/Slides/SlideShopSport';
-import SlideMemberBenefits from '../../components/Slides/SlideMemberBenefits';
 import { Title } from '../../components/Title';
+import { SlideAlwaysIconic, SlideMemberBenefits, SlideShopSport } from '../../components/Slides';
+import { ArtBtnHome } from '../../components/ArtMuseum';
 
 const imgFeatured = [
     {

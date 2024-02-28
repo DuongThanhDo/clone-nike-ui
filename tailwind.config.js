@@ -7,7 +7,7 @@ module.exports = {
                 primary: '48px',
             },
             colors: {
-                'F5F5F5': 'F5F5F5',
+                F5F5F5: 'F5F5F5',
             },
         },
     },
