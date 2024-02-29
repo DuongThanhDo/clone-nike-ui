@@ -81,7 +81,9 @@ function SlideShopSport() {
                         <img className="w-full h-full object-cover" src={img.url} alt="" />
                         <p className="text-[20px] font-medium my-2">{img.caption}</p>
                         <p className="text-[16px] mb-4">{img.describe}</p>
-                        <Link className="text-[18px] font-medium underline">{img.btn}</Link>
+                        <Link to={'/product'} className="text-[18px] font-medium underline">
+                            {img.btn}
+                        </Link>
                     </div>
                 ))}
             </Slider>

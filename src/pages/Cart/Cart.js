@@ -3,38 +3,9 @@ import { CartItem, FavoriteCartItem } from '../../components/Item';
 import SlideShopSport from '../../components/Slides/SlideShopSport';
 import { Title } from '../../components/Title';
 import { HiQuestionMarkCircle } from 'react-icons/hi2';
+import { products } from '../../datas/dataProduct';
 
-const carts = [
-    {
-        name: 'Nike Dunk Low',
-        url: 'https://i.pinimg.com/564x/4a/df/4d/4adf4d5e655f40eec531324470b2f2f0.jpg',
-        type: 'Men',
-        tag: 'Summit White/Wolf Grey/Light Carbon',
-        size: '37.5',
-        price: 1000,
-        quantity: 1,
-    },
-    {
-        name: 'Nike Dunk Low',
-        url: 'https://i.pinimg.com/564x/4a/df/4d/4adf4d5e655f40eec531324470b2f2f0.jpg',
-        type: 'Men',
-        tag: 'Summit White/Wolf Grey/Light Carbon',
-        size: '37.5',
-        price: 1000,
-        quantity: 1,
-    },
-    {
-        name: 'Nike Dunk Low',
-        url: 'https://i.pinimg.com/564x/4a/df/4d/4adf4d5e655f40eec531324470b2f2f0.jpg',
-        type: 'Men',
-        tag: 'Summit White/Wolf Grey/Light Carbon',
-        size: '37.5',
-        price: 1000,
-        quantity: 1,
-    },
-];
-
-const cartsFavorite = carts.slice(0, 2);
+const cartsFavorite = products.slice(0, 2);
 
 function Cart() {
     return (
@@ -45,7 +16,7 @@ function Cart() {
                         <div className="w-full lg:w-[66.66667%]">
                             <h2 className="text-[24px] font-semibold">Bag</h2>
                             <div>
-                                {carts.map((cart, index) => (
+                                {products.map((cart, index) => (
                                     <CartItem key={index} product={cart} />
                                 ))}
                             </div>

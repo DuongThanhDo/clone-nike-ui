@@ -4,43 +4,7 @@ import videoSource from '../../assets/video/pexels_videos_2601.mp4';
 import { Title } from '../../components/Title';
 import { SlideAlwaysIconic, SlideMemberBenefits, SlideShopSport } from '../../components/Slides';
 import { ArtBtnHome } from '../../components/ArtMuseum';
-
-const imgFeatured = [
-    {
-        url: 'https://i.pinimg.com/564x/51/0f/37/510f37fb7fbcfc79014a780f96699f2e.jpg',
-        caption: "Women's Air Max",
-        btn: 'Get It First',
-    },
-    {
-        url: 'https://i.pinimg.com/564x/4a/df/4d/4adf4d5e655f40eec531324470b2f2f0.jpg',
-        caption: "Women's Air Max",
-        btn: 'Shop',
-    },
-    {
-        url: 'https://i.pinimg.com/564x/51/0f/37/510f37fb7fbcfc79014a780f96699f2e.jpg',
-        caption: "Women's Air Max",
-        btn: 'Shop',
-    },
-];
-
-const directoryProduct = [
-    {
-        title: 'Icons',
-        products: ['Air Force 1', 'Huarache', 'Air Max 90', 'Air Max 95'],
-    },
-    {
-        title: 'Shoes',
-        products: ['All Shoes', 'Custom Shoes', 'Jordan Shoes', 'Running Shoes'],
-    },
-    {
-        title: 'Clothing',
-        products: ['All Clothing', 'Modest Wear', 'Hoodies & Pullovers', 'Shirts & Tops'],
-    },
-    {
-        title: "Kids'",
-        products: ['Infant & Toddler Shoes', "Kids' Shoes", "Kids' Jordan Shoes", "Kids' Basketball Shoes"],
-    },
-];
+import { directoryProduct, imgFeatured } from '../../datas/dataView';
 
 function Home() {
     return (
