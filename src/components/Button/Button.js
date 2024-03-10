@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Button({ children, to, href, bgWhite = false, className, onClick, ...passProps }) {
+function Button({ children, to, href, bgWhite = false, className, py, onClick, ...passProps }) {
     let Comp = 'button';
     const props = {
         onClick,
@@ -15,8 +15,12 @@ function Button({ children, to, href, bgWhite = false, className, onClick, ...pa
 
     return (
         <Comp
-            className={`${className} py-[6px] px-[20px] rounded-l-full rounded-r-full text-[16px] font-medium cursor-pointer transition-all ${
-                bgWhite ? 'text-[#111111] bg-white border  hover:bg-[#7e7e7e]' : 'text-white bg-[#111111] hover:bg-[#7e7e7e]'
+            className={`${
+                py ? py : 'py-[6px]'
+            } ${className} px-[20px] rounded-l-full rounded-r-full text-[16px] font-medium cursor-pointer transition-all ${
+                bgWhite
+                    ? 'text-[#111111] bg-white border  hover:border-[#707072]'
+                    : 'text-white bg-[#111111] hover:bg-[#7e7e7e]'
             }`}
             {...props}
         >

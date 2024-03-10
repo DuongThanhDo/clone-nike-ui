@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../Button';
 
-function FavoriteCartItem({ product }) {
+function FavouriteCartItem({ product }) {
     return (
         <div>
             <div className="flex justify-between py-6 border-b">
@@ -35,4 +35,4 @@ function FavoriteCartItem({ product }) {
     );
 }
 
-export default FavoriteCartItem;
+export default FavouriteCartItem;

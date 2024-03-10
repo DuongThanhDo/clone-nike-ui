@@ -45,6 +45,7 @@ function Product() {
                 {showFilter && (
                     <div className="w-[200px] pr-[20px] h-[76vh] overflow-hidden overflow-y-scroll">
                         <ConfigProvider
+                            key={123}
                             theme={{ components: { Checkbox: { colorPrimary: '#11111', algorithm: true } } }}
                         >
                             {filters.map((filter, index) => (

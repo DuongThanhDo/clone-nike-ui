@@ -1,11 +1,11 @@
 import Button from '../../components/Button/Button';
-import { CartItem, FavoriteCartItem } from '../../components/Item';
+import { CartItem, FavouriteCartItem } from '../../components/Item';
 import SlideShopSport from '../../components/Slides/SlideShopSport';
 import { Title } from '../../components/Title';
 import { HiQuestionMarkCircle } from 'react-icons/hi2';
 import { products } from '../../datas/dataProduct';
 
-const cartsFavorite = products.slice(0, 2);
+const cartsFavourite = products.slice(0, 2);
 
 function Cart() {
     return (
@@ -41,14 +41,14 @@ function Cart() {
                                     11,286,000<small>₫</small>
                                 </p>
                             </div>
-                            <Button className={'w-full px-6 py-[18px] mt-5 text-[18px]'}>Member Checkout</Button>
+                            <Button py={'py-[18px]'} className={'w-full px-6 mt-5 text-[18px]'}>Member Checkout</Button>
                         </div>
                     </div>
                     <div className="w-full">
                         <h2 className="text-[24px] font-semibold mt-4">Favourites</h2>
                         <div className="grid grid-cols-2 gap-8">
-                            {cartsFavorite.map((cart, index) => (
-                                <FavoriteCartItem key={index} product={cart} />
+                            {cartsFavourite.map((cart, index) => (
+                                <FavouriteCartItem key={index} product={cart} />
                             ))}
                         </div>
                     </div>

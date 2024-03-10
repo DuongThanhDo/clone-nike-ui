@@ -9,6 +9,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 0,
+        favourite: true,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -31,6 +32,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 0,
+        favourite: false,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -51,6 +53,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 0,
+        favourite: false,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -73,6 +76,7 @@ export const products = [
         size: '37.5',
         price: 4325,
         sale: 40,
+        favourite: true,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -94,6 +98,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 40,
+        favourite: false,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -116,6 +121,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 40,
+        favourite: false,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -135,6 +141,7 @@ export const products = [
         size: '37.5',
         price: 999,
         sale: 40,
+        favourite: true,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -157,6 +164,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 40,
+        favourite: false,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -177,6 +185,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 40,
+        favourite: true,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },
@@ -197,6 +206,7 @@ export const products = [
         size: '37.5',
         price: 1000,
         sale: 40,
+        favourite: false,
         colour: [
             { nameCol: 'Black', codingCol: '#000000' },
             { nameCol: 'Red', codingCol: '#ff0000' },

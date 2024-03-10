@@ -1,4 +1,4 @@
 export { default as CartItem } from './CartItem'
-export { default as FavoriteCartItem } from './FavoriteCartItem'
-export { default as FavoriteItem } from './FavoriteItem'
+export { default as FavouriteCartItem } from './FavouriteCartItem'
+export { default as FavouriteItem } from './FavouriteItem'
 export { default as ProductItem } from './ProductItem'

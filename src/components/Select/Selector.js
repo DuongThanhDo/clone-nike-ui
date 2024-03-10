@@ -12,10 +12,12 @@ function Selector({ title, children, className }) {
         <div>
             <div
                 onClick={handleOpen}
-                className={`flex items-center justify-between w-full max-w-[500px] cursor-pointer text-[18px] font-medium py-3 border-t`}
+                className={`flex items-center justify-between w-full max-w-[500px] cursor-pointer text-[18px] font-medium py-3 border-t z-1`}
             >
                 <h2>{title}</h2>
-                <FaChevronDown className={`${openModal ? 'rotate-180' : ''} text-[16px] transition-all duration-300`} />
+                <FaChevronDown
+                    className={`${openModal ? 'rotate-180' : ''} text-[16px] transition-all duration-300 z-1`}
+                />
             </div>
 
             <div className={`${className} ${openModal ? 'pb-3' : 'h-0 overflow-hidden'} transition-all`}>

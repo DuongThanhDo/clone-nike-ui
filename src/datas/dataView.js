@@ -1,3 +1,358 @@
+// Header
+export const navBars = [
+    {
+        title: 'New & Featured',
+        types: [
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'Featured',
+                    'New Releases',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'Jordan',
+                    'Retro Running',
+                    'Customise with Nike By You',
+                    'Sale',
+                    'Running Shoe Finder',
+                    'Sustainable Materials',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National',
+                ],
+            },
+            {
+                name: 'New For Kids',
+                list: ['Shoes', 'Clothing', 'Bestsellers', 'Shop All new'],
+            },
+        ],
+    },
+    {
+        title: 'Men',
+        types: [
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National',
+                ],
+            },
+            {
+                name: 'New For Kids',
+                list: ['Shoes', 'Clothing', 'Bestsellers', 'Shop All new'],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National',
+                ],
+            },
+            {
+                name: 'New For Kids',
+                list: ['Shoes', 'Clothing', 'Bestsellers', 'Shop All new'],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+        ],
+    },
+    {
+        title: 'Women',
+        types: [
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+        ],
+    },
+    {
+        title: 'Kids',
+        types: [
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+        ],
+    },
+    {
+        title: 'Sale',
+        types: [
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+        ],
+    },
+    {
+        title: 'Customise',
+        types: [
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                ],
+            },
+            {
+                name: 'New & Featured',
+                list: [
+                    'New Arrivals',
+                    'Latest Shoes',
+                    'Latest Clothing',
+                    'Customise with Nike By You',
+                    'Bestsellers',
+                    'Member Exclusive',
+                    'National Team Kits',
+                    'Top Kicks Under 3,000,000₫',
+                ],
+            },
+        ],
+    },
+];
+
 // Home page
 export const imgFeatured = [
     {

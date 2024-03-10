@@ -8,16 +8,16 @@ const iconsSocialMedia = [<FaTwitter />, <FaFacebookF />, <TfiYoutube />, <TiSoc
 
 function Footer() {
     return (
-        <div className="bg-[#111111] text-white pt-[40px] px-[40px]">
+        <div className="bg-[#111111] pt-[40px] px-[40px] mt-20">
             <div className="flex justify-between">
                 <div className="flex flex-1">
                     <div className="w-1/4 text-[14px] font-bold">
-                        <p className="cursor-pointer">FIND A STORE</p>
-                        <p className="my-[14px] cursor-pointer">BECOME A MEMBER</p>
-                        <p className="cursor-pointer">Send Us Feedback</p>
+                        <p className="cursor-pointer text-white">FIND A STORE</p>
+                        <p className="my-[14px] cursor-pointer text-white">BECOME A MEMBER</p>
+                        <p className="cursor-pointer text-white">Send Us Feedback</p>
                     </div>
                     <ul className="w-1/4">
-                        <li className="text-[14px] font-bold cursor-pointer">GET HELP</li>
+                        <li className="text-[14px] font-bold cursor-pointer text-white">GET HELP</li>
                         {getHelp.map((item, index) => (
                             <li
                                 className="text-[12px] text-[#7e7e7e] cursor-pointer font-bold mt-[14px] hover:text-white transition-all"
@@ -28,7 +28,7 @@ function Footer() {
                         ))}
                     </ul>
                     <ul className="w-1/4">
-                        <li className="text-[14px] font-bold cursor-pointer">ABOUT NIKE</li>
+                        <li className="text-[14px] font-bold cursor-pointer text-white">ABOUT NIKE</li>
                         {aboutNike.map((item, index) => (
                             <li
                                 className="text-[12px] text-[#7e7e7e] cursor-pointer font-bold mt-[14px] hover:text-white transition-all"
@@ -54,14 +54,14 @@ function Footer() {
             <div className="flex justify-between items-center py-6 text-[13px] font-medium mt-6">
                 <div className="flex items-center gap-4">
                     <FaMapMarkerAlt />
-                    <p className="font-semibold">Vietnam</p>
+                    <p className="font-semibold text-white">Vietnam</p>
                     <p className="text-[#7e7e7e]">© 2023 Nike, Inc. All Rights Reserved</p>
                 </div>
-                <div className="flex gap-4 text-[#7e7e7e]">
-                    <p>Guides</p>
-                    <p>Terms of Sale</p>
-                    <p>Terms of Use</p>
-                    <p>Nike Privacy Policy</p>
+                <div className="flex gap-4">
+                    <p className='text-[#7e7e7e]'>Guides</p>
+                    <p className='text-[#7e7e7e]'>Terms of Sale</p>
+                    <p className='text-[#7e7e7e]'>Terms of Use</p>
+                    <p className='text-[#7e7e7e]'>Nike Privacy Policy</p>
                 </div>
             </div>
         </div>

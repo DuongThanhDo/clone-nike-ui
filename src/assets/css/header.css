@@ -1,0 +1,12 @@
+.header-navbar-item-details {
+    display: none;
+}
+
+.header-navbar-item:nth-child(n):hover .header-navbar-item-details:nth-child(n) {
+    display: flex;
+    z-index: 1000;
+}
+
+.header-navbar-item:nth-child(n):hover .header-navbar-item-detail:nth-child(n) {
+    animation: falling linear 0.25s;
+}

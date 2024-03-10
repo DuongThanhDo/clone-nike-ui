@@ -8,8 +8,8 @@ function ProductItem({ product }) {
             {product.bestseller && <p className="text-[#a85344] my-1">Bestseller</p>}
             <div className="leading-6">
                 <p>{product.name}</p>
-                <p className="text-[#979797]">{product.type}</p>
-                <p className="text-[#979797]">{product.colour.length} colour</p>
+                <p className="text-[#979797] font-normal">{product.type}</p>
+                <p className="text-[#979797] font-normal">{product.colour.length} colour</p>
             </div>
             <p className="my-1">
                 {product.price}
